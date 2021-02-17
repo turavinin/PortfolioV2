@@ -1,0 +1,164 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+<!-- INICIO -->
+<div class="main__inicio">
+    <div class="inicio">
+        <p class="inicio__texto1">Hola, mi nombre es</p>
+        <h1 class="inicio__texto2">Anton Turavinin</h1>
+        <h2 class="inicio__text3">Soy desarrollador de software</h2>
+    </div>
+</div>
+
+<!-- PRESENTACION -->
+<div class="presentacion" id="sobreMi">
+    <div class="presentacion__container">
+        <div class="presentacion__titulo">
+            <h2 class="presentacion__titulo--texto">Sobre mi</h2>
+        </div>
+        <div class="presentacion__descripcion">
+            <p class="presentacion__descripcion--texto">Soy un apasionado de la programación. Disfruto su aspecto desafiante y su capacidad para resolver todo tipo de problemas. Siempre busco profundizar en mis conocimientos técnicos, aprender nuevas formas de escribir código y perfeccionar mi habilidad de desarrollar mejores y más eficaces algoritmos. El camino del desarrollador de software es un camino de constante aprendizaje, lo cual me anima y me impulsa día a día a mejorar como programador.</p>
+        </div>  
+        <div class="presentacion__info">
+            <ul class="presentacion__info__lista">
+                <li class="lista__item lista__item1"><span class="lista__item--span">Nombre: </span>Anton Turavinin</li>
+                <li class="lista__item lista__item2"><span class="lista__item--span">Locación: </span>Buenos Aires, Argentina</li>
+                <li class="lista__item lista__item3"><span class="lista__item--span">Email: </span>aturavinin@gmail.com</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- STACK -->
+<div class="stack" id="stack">
+    <div class="stack__container">
+        <!-- Titulo -->
+        <div class="stack__titulo">
+            <h2 class="stack__titulo--texto">Stack</h2>
+        </div>
+        <!-- Cards -->
+        <div class="stack__cards">
+            <!-- Card 1 -->
+            <div class="stack__cards__card stack__card1">
+                <img class="stack__cards__imagen stack__imagen--csharp" src="./images/csharp.png" alt="csharp">
+                <h2 class="stack__cards__titulo stack__card--titulo1">C# Development</h2>
+                <p class="stack__cards__texto stack__card--texto1">Uso y me instruyo diariamente programando en C#. Aplico la programación orientada a objetos teniendo en cuenta los patrones de diseño.</p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="stack__cards__card stack__card2">
+                <img class="stack__cards__imagen stack__imagen--aspnet" src="./images/aspnet.jpeg" alt="aspnet">
+                <h2 class="stack__cards__titulo stack__card--titulo2">Full Stack Web Development</h2>
+                <p class="stack__cards__texto stack__card--texto2">Uso patrones de diseño y frameworks para construir webapps. ASP.net y MVC son tecnologías en las cuales profundizo constantemente.</p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="stack__cards__card stack__card3">
+                <img class="stack__cards__imagen stack__imagen--front" src="./images/front.png" alt="front">
+                <h2 class="stack__cards__titulo stack__card--titulo3">Front End Development</h2>
+                <p class="stack__cards__texto stack__card--texto1">Uso HTML, CSS y Javascript para construir webapps con frontends responsivos y componentes atractivos.</p>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="stack__cards__card stack__card4">
+                <img class="stack__cards__imagen stack__imagen--sql" src="./images/sql.png" alt="sql">
+                <h2 class="stack__cards__titulo stack__card--titulo4">Database Development</h2>
+                <p class="stack__cards__texto stack__card--texto4">Los datos son un aspecto crucial en cualquier proyecto. Tengo conocimiento en el desarrollo SQL desde el uso de queries hasta el diseño.</p>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="stack__cards__card stack__card5">
+                <img class="stack__cards__imagen stack__imagen--git" src="./images/git.png" alt="git">
+                <h2 class="stack__cards__titulo stack__card--titulo5">Git</h2>
+                <p class="stack__cards__texto stack__card--texto5">El uso de Git para controlar las versiones del código es un aspecto clave para el orden y la estabilidad de cualquier proyecto.</p>
+            </div>
+            
+            <!-- Card 6 -->
+            <div class="stack__cards__card stack__card6">
+                <img class="stack__cards__imagen stack__imagen--vs" src="./images/vs.png" alt="vs">
+                <h2 class="stack__cards__titulo stack__card--titulo6">Visual Studio 2019</h2>
+                <p class="stack__cards__texto stack__card--texto6">Escribo mis códigos tanto en el IDE Visual Studio 2019 como en el editor de código Visual Studio Code.</p>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<!-- PROYECTOS -->
+<div class="proyectos" id="proyectos">
+    <div class="proyectos__container">
+        <!-- Titulo -->
+        <div class="proyectos__titulo">
+            <h2 class="proyectos__titulo--texto">Proyectos</h2>
+        </div>
+
+        <!-- Cards -->
+        <div class="proyectos__cards">
+            <!-- Humans vs Aliens -->
+            <div class="proyectos__cards__card proyectos__card1">
+                <h2 class="proyectos__card__texto project__card__texto3">Human vs Aliens</h2>
+                <a href="https://humansvsaliens.netlify.app/" target="_blank"><i class="icon fas fa-external-link-alt" id="icon__human--link"></i></a>
+                <a href="https://github.com/turavinin/rock-paper-scissors" target="_blank"><i class="icon fab fa-github" id="icon__human--git"></i></a>
+            </div>
+
+            <!-- Etch a Sketch -->
+            <div class="proyectos__cards__card proyectos__card2">
+                <h2 class="proyectos__card__texto project__card__texto3">Etch-a-Sketch</h2>
+                <a href="https://turavinin.github.io/etch-a-sketch/" target="_blank"><i class="icon fas fa-external-link-alt" id="icon__human--link"></i></a>
+                <a href="https://github.com/turavinin/etch-a-sketch" target="_blank"><i class="icon fab fa-github" id="icon__human--git"></i></a>
+            </div>
+
+            <!-- Landing page -->
+            <div class="proyectos__cards__card proyectos__card3">
+                <h2 class="proyectos__card__texto project__card__texto3">Landing Page</h2>
+                <a href="https://turavinin.github.io/product-landing-page/" target="_blank"><i class="icon fas fa-external-link-alt" id="icon__human--link"></i></a>
+                <a href="https://github.com/turavinin/product-landing-page" target="_blank"><i class="icon fab fa-github" id="icon__human--git"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- CONTACTO -->
+<div class="contacto" id="contacto">
+    <div class="contacto__container">
+        <!-- Titulo -->
+        <div class="contacto__titulo">
+            <h2 class="contacto__titulo--texto">Hablemos</h2>
+        </div>
+        <!-- Mensaje -->
+        <div class="contacto__mensaje">
+            <p class="contacto__mensaje--texto">
+                Actualmente estoy disponible para ocupar una posición full-time. Pongámonos en contacto y charlemos en cómo podría encajar en la proyecto. Mi inbox esta siempre abierto. Ya sea que tenga una pregunta o solo quiera saludar, en poco tiempo le responderé!
+            </p>
+        </div>
+        <!-- Iconos Generales -->
+        <div class="contacto__iconos__generales">
+            <!-- Mapa -->
+            <div class="iconos__generales--mapa">
+                <i class="fas fa-map-marked-alt" id="icono__general"></i>
+                <p class="iconos--general--texto">Buenos Aires, Argentina</p>
+            </div>
+            <!-- Telefono -->
+            <div class="iconos__generales--telefono">
+                <i class="fas fa-mobile-alt" id="icono__general"></i>
+                <p class="iconos--general--texto">(+54) 9 11 2163-9723</p>
+            </div>
+            <!-- Email -->
+            <div class="iconos__generales--email">
+                <i class="fas fa-envelope" id="icono__general"></i>
+                <p class="iconos--general--texto">aturavinin@gmail.com</p>
+            </div>
+        <!-- Iconos Redes -->
+        <div class="contacto__iconos__redes">
+            <a href="https://www.linkedin.com/in/turavinin/" target="_blank"><i class="fab fa-linkedin" id="icono__redes"></i></a>
+            <a href="https://github.com/turavinin" target="_blank"><i class="fab fa-github" id="icono__redes"></i></a>
+            <a href="https://twitter.com/_vinin_" target="_blank"><i class="fab fa-twitter" id="icono__redes"></i></a>
+        </div>
+        </div>
+    </div>
+</div>

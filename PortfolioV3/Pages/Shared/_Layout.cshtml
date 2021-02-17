@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- META -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" 
+      type="image/png" 
+      href="./images/anton.png">
+
+    <!-- TITLE -->
+    <title>Portfolio - Anton Turavinin</title>
+
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/bd53be0974.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <!-- HAMB -->
+        <div class="hamburger">
+            <div class="hamburger__line hamburger__line1"></div>
+            <div class="hamburger__line hamburger__line2"></div>
+            <div class="hamburger__line hamburger__line3"></div> 
+        </div>
+        <div class="header__text">
+            <!-- NAVBAR -->
+            <nav class="navbar">
+                <ul class="navbar__list">
+                    <li class="navbar__item"><a class="navbar__link" href="#sobreMi">01.<span class="navbar__link--span">Sobre mi</span></a></li>
+
+                    <li class="navbar__item"><a class="navbar__link" href="#stack">02.<span class="navbar__link--span">Stack</span></a></li>
+
+                    <li class="navbar__item"><a class="navbar__link" href="#proyectos">03.<span class="navbar__link--span">Proyectos</span></a></li>
+
+                    <li class="navbar__item"><a class="navbar__link" href="#contacto">04.<span class="navbar__link--span">Contacto</span></a></li>
+                </ul>
+            </nav>
+            <!-- RESUME BUTTON -->
+            <div class="curriculum">
+                <button class="curriculum__btn">
+                    <a class="curriculum__link" href="https://drive.google.com/file/d/188Zzvl0hr6rGNe0kDyYwkgvJNNWCbjmS/view?usp=sharing" target="_blank">Curriculum</a>
+                </button>
+            </div>
+        </div>
+    </header>
+    
+    <div>
+        <main class="main">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer>
+    </footer>
+
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
