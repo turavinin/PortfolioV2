@@ -42,7 +42,7 @@ namespace PortfolioV3
                 app.UseHsts();
             }
 
-            app.UseLiveReload();
+            app.UseLiveReload(); 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
