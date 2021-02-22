@@ -673,7 +673,7 @@ body {
   /* ------------------- STACK ------------------ */
 
   .stack__container {
-    margin: 10rem 20rem;
+    margin: 10rem 17rem;
   }
 
   .stack__titulo {
@@ -685,6 +685,7 @@ body {
   .stack__cards {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
